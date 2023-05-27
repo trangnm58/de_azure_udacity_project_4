@@ -1,0 +1,12 @@
+{
+	"name": "ls_asa",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=asaude04.sql.azuresynapse.net;initial catalog=sqlpool;user id=sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDhFMUQwOEZFLThDMzctNDJCRi1BODY5LTlGQkM3MDU5MEE2NV81ODI4ODNiYy1jMjkwLTQ2MGEtYmVhNi00M2U0Y2RiZDU5MTciDQp9"
+		}
+	}
+}
